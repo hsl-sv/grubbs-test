@@ -1,8 +1,6 @@
 import numpy as np
 import scipy.stats
 
-# https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h1.htm
-
 def gt(a, alpha=0.05, rep=0):
     b = a
     b[np.isinf(a)] = np.nan
